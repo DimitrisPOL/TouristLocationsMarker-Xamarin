@@ -1,0 +1,128 @@
+﻿@page
+@model Topothesies.Pages.Locations.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+<script>
+
+
+    $(document).ready(function () {
+        // execute
+        (function () {
+            // map options
+            const myLatlng = { lat: 38.0380048, lng: 23.7053169 };
+
+            var options = {
+                zoom: 10,
+                center: new google.maps.LatLng(myLatlng),
+                mapTypeId: google.maps.MapTypeId.TERRAIN,
+                mapTypeControl: false
+            };
+
+            // init map
+            var map = new google.maps.Map(document.getElementById('map_canvas'), options);
+
+            // Create the initial InfoWindow.
+            let infoWindow = new google.maps.InfoWindow({
+                content: "Click the map to get Lat/Lng!",
+                position: myLatlng,
+            });
+            infoWindow.open(map);
+
+            // Configure the click listener.
+            map.addListener("click", (mapsMouseEvent) => {
+                // Close the current InfoWindow.
+                infoWindow.close();
+                // Create a new InfoWindow.
+                infoWindow = new google.maps.InfoWindow({
+                    position: mapsMouseEvent.latLng,
+                });
+                infoWindow.setContent(
+                    JSON.stringify(mapsMouseEvent.latLng.toJSON(), null, 2)
+                );
+                var latlng = JSON.stringify(mapsMouseEvent.latLng.toJSON(), null, 2);
+                var split = latlng.toString().split(",")
+                var lat = document.getElementById('Lat');
+                var lng = document.getElementById('Lng');
+
+                var temp1 = split[0].toString().replace("{\n  \"lat\": ", "").trim().replace(".", ",");
+                var temp2 = split[1].toString().replace(" \"lng\": ", "").replace("}", "").replace(",", "").trim().replace(".", ",");
+                lat.value = temp1;
+                lng.value = temp2;
+
+                infoWindow.open(map);
+            });
+        })();
+    });
+
+</script>
+
+<h1>Edit</h1>
+
+<h4>Location</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Location.Id" />
+            <div class="form-group">
+                <label asp-for="Location.LocationName" class="control-label"></label>
+                <input asp-for="Location.LocationName" class="form-control" />
+                <span asp-validation-for="Location.LocationName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Location.LocationDesc" class="control-label"></label>
+                <input asp-for="Location.LocationDesc" class="form-control" />
+                <span asp-validation-for="Location.LocationDesc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Location.Area.AreaName" class="control-label"></label>
+                <input asp-for="Location.Area.AreaName" class="form-control" />
+                <span asp-validation-for="Location.Area.AreaName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Location.Area.AreaCode" class="control-label"></label>
+                <input asp-for="Location.Area.AreaCode" class="form-control" />
+                <span asp-validation-for="Location.Area.AreaCode" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Location.StreetAddress" class="control-label"></label>
+                <input asp-for="Location.StreetAddress" class="form-control" />
+                <span asp-validation-for="Location.StreetAddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Location.Coordinates.Lat" class="control-label"></label>
+                <input asp-for="Location.Coordinates.Lat" class="form-control" />
+                <span asp-validation-for="Location.Coordinates.Lat" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Location.Coordinates.Lng" class="control-label"></label>
+                <input asp-for="Location.Coordinates.Lng" class="form-control" />
+                <span asp-validation-for="Location.Coordinates.Lng" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Upload" class="control-label"></label>
+                <input type="file" asp-for="Upload" class="form-control" />
+                <span asp-validation-for="Upload" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ImageUpload" class="control-label"></label>
+                <input type="file" asp-for="ImageUpload" class="form-control" />
+                <span asp-validation-for="ImageUpload" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./IndexLoc">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,115 @@
+2024-07-22 22:18:32.8487 Info Message Template Auto Format enabled
+2024-07-22 22:18:32.8818 Info Loading assembly: NLog.Web.AspNetCore
+2024-07-22 22:18:32.9830 Info Adding target FileTarget(Name=alldata)
+2024-07-22 22:18:33.0005 Info Adding target FileTarget(Name=otherFile-web)
+2024-07-22 22:18:33.0646 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=41, FilePath=C:\Users\dimip\source\repos\LocationsMarker\Locations.UI\bin\Debug\netcoreapp3.1\nlog.config
+2024-07-22 22:21:24.8775 Info Message Template Auto Format enabled
+2024-07-22 22:21:24.9173 Info Loading assembly: NLog.Web.AspNetCore
+2024-07-22 22:21:25.0259 Info Adding target FileTarget(Name=alldata)
+2024-07-22 22:21:25.0446 Info Adding target FileTarget(Name=otherFile-web)
+2024-07-22 22:21:25.1235 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=41, FilePath=C:\Users\dimip\source\repos\LocationsMarker\Locations.UI\bin\Debug\netcoreapp3.1\nlog.config
+2024-07-22 22:24:30.7715 Info Message Template Auto Format enabled
+2024-07-22 22:24:30.7985 Info Loading assembly: NLog.Web.AspNetCore
+2024-07-22 22:24:30.8930 Info Adding target FileTarget(Name=alldata)
+2024-07-22 22:24:30.9057 Info Adding target FileTarget(Name=otherFile-web)
+2024-07-22 22:24:30.9661 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=41, FilePath=C:\Users\dimip\source\repos\LocationsMarker\Locations.UI\bin\Debug\netcoreapp3.1\nlog.config
+2024-07-22 22:25:37.6548 Info Message Template Auto Format enabled
+2024-07-22 22:25:37.6707 Info Loading assembly: NLog.Web.AspNetCore
+2024-07-22 22:25:37.7217 Info Adding target FileTarget(Name=alldata)
+2024-07-22 22:25:37.7326 Info Adding target FileTarget(Name=otherFile-web)
+2024-07-22 22:25:37.7722 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=41, FilePath=C:\Users\dimip\source\repos\LocationsMarker\Locations.UI\bin\Debug\netcoreapp3.1\nlog.config
+2024-07-22 22:36:50.1576 Info Message Template Auto Format enabled
+2024-07-22 22:36:50.1869 Info Loading assembly: NLog.Web.AspNetCore
+2024-07-22 22:36:50.2785 Info Adding target FileTarget(Name=alldata)
+2024-07-22 22:36:50.2953 Info Adding target FileTarget(Name=otherFile-web)
+2024-07-22 22:36:50.3765 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=41, FilePath=C:\Users\dimip\source\repos\LocationsMarker\Locations.UI\bin\Debug\netcoreapp3.1\nlog.config
+2024-07-22 22:40:29.8379 Info Message Template Auto Format enabled
+2024-07-22 22:40:29.8713 Info Loading assembly: NLog.Web.AspNetCore
+2024-07-22 22:40:29.9615 Info Adding target FileTarget(Name=alldata)
+2024-07-22 22:40:29.9615 Info Adding target FileTarget(Name=otherFile-web)
+2024-07-22 22:40:30.0336 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=41, FilePath=C:\Users\dimip\source\repos\LocationsMarker\Locations.UI\bin\Debug\netcoreapp3.1\nlog.config
+2024-07-22 22:43:50.3085 Info Message Template Auto Format enabled
+2024-07-22 22:43:50.3262 Info Loading assembly: NLog.Web.AspNetCore
+2024-07-22 22:43:50.3794 Info Adding target FileTarget(Name=alldata)
+2024-07-22 22:43:50.3907 Info Adding target FileTarget(Name=otherFile-web)
+2024-07-22 22:43:50.4296 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=41, FilePath=C:\Users\dimip\source\repos\LocationsMarker\Locations.UI\bin\Debug\netcoreapp3.1\nlog.config
+2024-07-22 22:44:45.3444 Info Message Template Auto Format enabled
+2024-07-22 22:44:45.3756 Info Loading assembly: NLog.Web.AspNetCore
+2024-07-22 22:44:45.4901 Info Adding target FileTarget(Name=alldata)
+2024-07-22 22:44:45.5149 Info Adding target FileTarget(Name=otherFile-web)
+2024-07-22 22:44:45.5840 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=41, FilePath=C:\Users\dimip\source\repos\LocationsMarker\Locations.UI\bin\Debug\netcoreapp3.1\nlog.config
+2024-07-22 22:45:46.7314 Info Message Template Auto Format enabled
+2024-07-22 22:45:46.7505 Info Loading assembly: NLog.Web.AspNetCore
+2024-07-22 22:45:46.7992 Info Adding target FileTarget(Name=alldata)
+2024-07-22 22:45:46.8079 Info Adding target FileTarget(Name=otherFile-web)
+2024-07-22 22:45:46.8427 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=41, FilePath=C:\Users\dimip\source\repos\LocationsMarker\Locations.UI\bin\Debug\netcoreapp3.1\nlog.config
+2024-07-22 23:10:28.0030 Info Message Template Auto Format enabled
+2024-07-22 23:10:28.0316 Info Loading assembly: NLog.Web.AspNetCore
+2024-07-22 23:10:28.0986 Info Adding target FileTarget(Name=alldata)
+2024-07-22 23:10:28.1124 Info Adding target FileTarget(Name=otherFile-web)
+2024-07-22 23:10:28.1775 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=41, FilePath=C:\Users\dimip\source\repos\LocationsMarker\Locations.UI\bin\Debug\netcoreapp3.1\nlog.config
+2024-07-22 23:12:38.3661 Info Message Template Auto Format enabled
+2024-07-22 23:12:38.3880 Info Loading assembly: NLog.Web.AspNetCore
+2024-07-22 23:12:38.4610 Info Adding target FileTarget(Name=alldata)
+2024-07-22 23:12:38.4771 Info Adding target FileTarget(Name=otherFile-web)
+2024-07-22 23:12:38.5234 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=41, FilePath=C:\Users\dimip\source\repos\LocationsMarker\Locations.UI\bin\Debug\netcoreapp3.1\nlog.config
+2024-07-22 23:14:16.1473 Info Message Template Auto Format enabled
+2024-07-22 23:14:16.1776 Info Loading assembly: NLog.Web.AspNetCore
+2024-07-22 23:14:16.2812 Info Adding target FileTarget(Name=alldata)
+2024-07-22 23:14:16.3009 Info Adding target FileTarget(Name=otherFile-web)
+2024-07-22 23:14:16.3885 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=41, FilePath=C:\Users\dimip\source\repos\LocationsMarker\Locations.UI\bin\Debug\netcoreapp3.1\nlog.config
+2024-07-24 19:10:33.3947 Info Message Template Auto Format enabled
+2024-07-24 19:10:33.4168 Info Loading assembly: NLog.Web.AspNetCore
+2024-07-24 19:10:33.4865 Info Adding target FileTarget(Name=alldata)
+2024-07-24 19:10:33.4973 Info Adding target FileTarget(Name=otherFile-web)
+2024-07-24 19:10:33.5460 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=41, FilePath=C:\Users\dimip\source\repos\LocationsMarker\Locations.UI\bin\Debug\netcoreapp3.1\nlog.config
+2024-07-24 19:20:53.0764 Info Message Template Auto Format enabled
+2024-07-24 19:20:53.0947 Info Loading assembly: NLog.Web.AspNetCore
+2024-07-24 19:20:53.1415 Info Adding target FileTarget(Name=alldata)
+2024-07-24 19:20:53.1514 Info Adding target FileTarget(Name=otherFile-web)
+2024-07-24 19:20:53.1881 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=41, FilePath=C:\Users\dimip\source\repos\LocationsMarker\Locations.UI\bin\Debug\netcoreapp3.1\nlog.config
+2024-07-27 09:36:53.0179 Info Message Template Auto Format enabled
+2024-07-27 09:36:53.0497 Info Loading assembly: NLog.Web.AspNetCore
+2024-07-27 09:36:53.1324 Info Adding target FileTarget(Name=alldata)
+2024-07-27 09:36:53.1485 Info Adding target FileTarget(Name=otherFile-web)
+2024-07-27 09:36:53.2126 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=41, FilePath=C:\Users\dimip\source\repos\LocationsMarker\Locations.UI\bin\Debug\netcoreapp3.1\nlog.config
+2024-07-27 09:43:47.1496 Info Message Template Auto Format enabled
+2024-07-27 09:43:47.1641 Info Loading assembly: NLog.Web.AspNetCore
+2024-07-27 09:43:47.2102 Info Adding target FileTarget(Name=alldata)
+2024-07-27 09:43:47.2205 Info Adding target FileTarget(Name=otherFile-web)
+2024-07-27 09:43:47.2545 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=41, FilePath=C:\Users\dimip\source\repos\LocationsMarker\Locations.UI\bin\Debug\netcoreapp3.1\nlog.config
+2024-07-27 09:45:28.8831 Info Message Template Auto Format enabled
+2024-07-27 09:45:28.8975 Info Loading assembly: NLog.Web.AspNetCore
+2024-07-27 09:45:28.9479 Info Adding target FileTarget(Name=alldata)
+2024-07-27 09:45:28.9572 Info Adding target FileTarget(Name=otherFile-web)
+2024-07-27 09:45:28.9933 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=41, FilePath=C:\Users\dimip\source\repos\LocationsMarker\Locations.UI\bin\Debug\netcoreapp3.1\nlog.config
+2024-07-27 09:46:39.4785 Info Message Template Auto Format enabled
+2024-07-27 09:46:39.4953 Info Loading assembly: NLog.Web.AspNetCore
+2024-07-27 09:46:39.5489 Info Adding target FileTarget(Name=alldata)
+2024-07-27 09:46:39.5489 Info Adding target FileTarget(Name=otherFile-web)
+2024-07-27 09:46:39.5985 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=41, FilePath=C:\Users\dimip\source\repos\LocationsMarker\Locations.UI\bin\Debug\netcoreapp3.1\nlog.config
+2024-07-27 09:48:37.3459 Info Message Template Auto Format enabled
+2024-07-27 09:48:37.3611 Info Loading assembly: NLog.Web.AspNetCore
+2024-07-27 09:48:37.4013 Info Adding target FileTarget(Name=alldata)
+2024-07-27 09:48:37.4099 Info Adding target FileTarget(Name=otherFile-web)
+2024-07-27 09:48:37.4447 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=41, FilePath=C:\Users\dimip\source\repos\LocationsMarker\Locations.UI\bin\Debug\netcoreapp3.1\nlog.config
+2024-07-28 10:33:29.8720 Info Message Template Auto Format enabled
+2024-07-28 10:33:29.8971 Info Loading assembly: NLog.Web.AspNetCore
+2024-07-28 10:33:29.9664 Info Adding target FileTarget(Name=alldata)
+2024-07-28 10:33:29.9779 Info Adding target FileTarget(Name=otherFile-web)
+2024-07-28 10:33:30.0215 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=41, FilePath=C:\Users\dimip\source\repos\LocationsMarker\Locations.UI\bin\Debug\netcoreapp3.1\nlog.config
+2024-07-28 11:07:57.2516 Info Message Template Auto Format enabled
+2024-07-28 11:07:57.2654 Info Loading assembly: NLog.Web.AspNetCore
+2024-07-28 11:07:57.3085 Info Adding target FileTarget(Name=alldata)
+2024-07-28 11:07:57.3165 Info Adding target FileTarget(Name=otherFile-web)
+2024-07-28 11:07:57.3456 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=41, FilePath=C:\Users\dimip\source\repos\LocationsMarker\Locations.UI\bin\Debug\netcoreapp3.1\nlog.config
+2024-07-28 11:09:36.2878 Info Message Template Auto Format enabled
+2024-07-28 11:09:36.3033 Info Loading assembly: NLog.Web.AspNetCore
+2024-07-28 11:09:36.3485 Info Adding target FileTarget(Name=alldata)
+2024-07-28 11:09:36.3584 Info Adding target FileTarget(Name=otherFile-web)
+2024-07-28 11:09:36.3969 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=41, FilePath=C:\Users\dimip\source\repos\LocationsMarker\Locations.UI\bin\Debug\netcoreapp3.1\nlog.config
+2024-07-28 14:34:36.4318 Info Message Template Auto Format enabled
+2024-07-28 14:34:36.4837 Info Loading assembly: NLog.Web.AspNetCore
+2024-07-28 14:34:36.6473 Info Adding target FileTarget(Name=alldata)
+2024-07-28 14:34:36.6733 Info Adding target FileTarget(Name=otherFile-web)
+2024-07-28 14:34:36.7831 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=41, FilePath=C:\Users\dimip\source\repos\LocationsMarker\Locations.UI\bin\Debug\netcoreapp3.1\nlog.config

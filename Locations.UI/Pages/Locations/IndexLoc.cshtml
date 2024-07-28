@@ -1,0 +1,135 @@
+﻿@page
+@model Topothesies.Pages.Locations.IndexLocModel
+@{
+    ViewData["Title"] = "Index";
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<!DOCTYPE html>
+<!-- template from http://getbootstrap.com/getting-started -->
+
+
+<script>
+
+    $(document).ready(function() {
+        // execute
+        (
+            function initMap() {
+                const myLatLng = { lat: @Model.mapCenter.Lat, lng: @Model.mapCenter.Lng };
+                const map = new google.maps.Map(document.getElementById("map_canvas"), {
+                zoom: 14,
+                center: myLatLng,
+                });
+
+                var cities = @Json.Serialize(Model.Location);
+
+                for (var i = 0; i < cities.length; i++) {
+                    if (cities[i].coordinates != undefined) {
+                        var latLang = {
+                            lat: parseFloat(cities[i].coordinates.lat.toString().replace(",", ".")),
+                            lng: parseFloat(cities[i].coordinates.lng.toString().replace(",", "."))
+                        };
+                        var marker = new google.maps.Marker({
+                            position: latLang,
+                            map,
+                            title: cities[i].locationName
+                        });
+                    }
+                }
+        }
+)();
+    });
+
+</script>
+
+<div style="width:100%;" id="map_canvas"></div>
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Location[0].LocationName)
+            </th>    
+            <th>
+                @Html.DisplayNameFor(model => model.Location[0].LocationDesc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Location[0].Area.AreaName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Location[0].Area.AreaCode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Location[0].StreetAddress)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Location[0].Coordinates.Lat)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Location[0].Coordinates.Lng)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Location[0].ImagePath)
+            </th>  
+            <th>
+                @Html.DisplayNameFor(model => model.Location[0].MeterToNotify)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Location)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.LocationName)
+            </td>
+            <td style="max-width:400px;overflow-wrap: break-word;">
+                <p> @Html.DisplayFor(modelItem => item.LocationDesc) </p>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Area.AreaName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Area.AreaCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StreetAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Coordinates.Lat)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Coordinates.Lng)
+            </td>
+            <td>
+                <img width="300" height="200" src="@($"{item.ImagePath}")" />
+               
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MeterToNotify)
+            </td>
+
+            <td>
+                @if (@item.FilePath != null)
+                    {
+                <audio controls="controls">
+                    <source src="@($"{item.FilePath}")" type="audio/wav">
+                    Your browser does not support the HTML5 audio element.
+                </audio>
+                    }
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>

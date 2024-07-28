@@ -1,0 +1,34 @@
+﻿@page
+@model Topothesies.Pages.Locations.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Location</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Location.LocationName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Location.LocationName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Location.FilePath)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Location.FilePath)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="Location.Id" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-page="./IndexLoc">Back to List</a>
+    </form>
+</div>
