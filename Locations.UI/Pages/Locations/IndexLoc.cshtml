@@ -55,7 +55,7 @@
             <th>
                 @Html.DisplayNameFor(model => model.Location[0].LocationName)
             </th>    
-            <th>
+            <th">
                 @Html.DisplayNameFor(model => model.Location[0].LocationDesc)
             </th>
             <th>
@@ -89,8 +89,8 @@
             <td>
                 @Html.DisplayFor(modelItem => item.LocationName)
             </td>
-            <td style="max-width:400px;overflow-wrap: break-word;">
-                <p> @Html.DisplayFor(modelItem => item.LocationDesc) </p>
+            <td>
+                <p style="max-height:250px;max-width:400px;overflow:scroll;overflow-wrap: break-word;"> @Html.DisplayFor(modelItem => item.LocationDesc) </p>
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Area.AreaName)
