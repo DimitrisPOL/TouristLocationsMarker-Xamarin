@@ -7,14 +7,17 @@ LocationsMarker Api is a web application that enables administrators to create a
 
 <h2 style="color:yellow;">Basic Use Case</h2>
 
+</br>
 1. Login to the application. Go Locations > Create New . Mark a location on the map to fill the coordinates automatically and then fill in the rest of the form.
    
 
 </br>
 </br>
+
 ![Screenshot 2024-07-28 at 15-18-27 Create - Topothesies](https://github.com/user-attachments/assets/77bfb350-9bb3-4bd4-983a-33aa4fc5cf6f)
 
 
+</br>
 2. Upload the sound and image files.
 </br>
 </br>
@@ -22,6 +25,7 @@ LocationsMarker Api is a web application that enables administrators to create a
 <img width="1454" alt="Screenshot 2024-07-28 165310" src="https://github.com/user-attachments/assets/a4fa2217-fb9d-46c4-9c01-8776ec89c281">
 
 
+</br>
 3. Check the location on Locations page. Make sure your soundtrack works (prefer mp3 files)
 
 </br>
@@ -30,6 +34,7 @@ LocationsMarker Api is a web application that enables administrators to create a
 ![Screenshot 2024-07-28 at 16-55-39 Index - Topothesies](https://github.com/user-attachments/assets/e9553aca-e2c3-4854-a62e-2e62453f29ee)
 
 
+</br>
 4. Launch the Android app (emulator or device) and open map
 
 
@@ -38,6 +43,7 @@ LocationsMarker Api is a web application that enables administrators to create a
 <img width="468" alt="Screenshot 2024-07-28 192924" src="https://github.com/user-attachments/assets/f48c2745-d57c-47f3-af74-d5df9fb10ce4">
 
 
+</br>
 5. Navigate near the location you entered.
 
 
@@ -46,6 +52,7 @@ LocationsMarker Api is a web application that enables administrators to create a
 <img width="448" alt="Screenshot 2024-07-28 200954" src="https://github.com/user-attachments/assets/f249f92c-0cce-49af-b8bf-9d29a43d1d21">
 
 
+</br>
 6. Click in the Greek flag icon. You should see the image and description you set on LocationsMarker. Press play to hear the sound recording
 
 </br>
@@ -53,7 +60,8 @@ LocationsMarker Api is a web application that enables administrators to create a
 <img width="458" alt="Screenshot 2024-07-28 201037" src="https://github.com/user-attachments/assets/7a302b0b-1e3f-4b70-b91c-0087ea2ef541">
 
 
-8. Set the location near a sight you created if you launched with android emulator. If your device's location is closer to the sight than the 'meters to notify' value, the sound will play automatically to notify the user they are near an important attraction.
+</br>
+7. Set the location near a sight you created if you launched with android emulator. If your device's location is closer to the sight than the 'meters to notify' value, the sound will play automatically to notify the user they are near an important attraction.
 
 
 </br>
@@ -64,6 +72,7 @@ LocationsMarker Api is a web application that enables administrators to create a
 
 <h2>Setup Instructions</h2>
 
+</br>
 1. Set db connection string and prefered map starting coordinates on Location.UI appsettings.developments.json
    
 
@@ -72,6 +81,7 @@ LocationsMarker Api is a web application that enables administrators to create a
 <img width="833" alt="appsettings" src="https://github.com/user-attachments/assets/771e0f07-d5bc-43f2-8b1f-b1e02ae3b217">
 
 
+</br>
 2. If you are launching via emulator you will need to bind your localhost with 127.0.0.1 . This is the default IP which Android emulators set for the localhost of the hosting machine. The Android app will not be able to see your localhost/port if this is not set.
 
    
@@ -81,6 +91,7 @@ LocationsMarker Api is a web application that enables administrators to create a
 <img width="979" alt="hostconfig" src="https://github.com/user-attachments/assets/df45d2c9-446c-4e89-99ae-eea1c07ee6e6">
 
 
+</br>
 3. In the Android applicaton navigate to the constructor of MainActivity.cs. There you will set preferences before running/building the app.
 
 Note: If you do not set prefered starting location the app will default to the devices current location.
@@ -90,4 +101,5 @@ Note: If you do not set prefered starting location the app will default to the d
 <img width="934" alt="AndroidSettings2" src="https://github.com/user-attachments/assets/fe8c1459-8e96-45e4-bf3a-56df9d1dd602">
 
 
+</br>
 4. Start the LocationsMarker. After you have set some locations start TouristGuide. Enjoy!
