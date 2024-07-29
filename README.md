@@ -5,6 +5,48 @@ TouristGuide is an Android application developed with Xamarin Android. It allows
 
 LocationsMarker Api is a web application that enables administrators to create and manage tourist attraction locations that will be used be TouristGuide app to present the sights to the users. Administrators can provide information such as the name, area, postal code, description, image, and sound recording for each location. They can also set the distance at which the sound recording will play automatically for the Android application users. 
 
+
+
+## Prerequisites
+
+- [.NET SDK](https://dotnet.microsoft.com/download)
+- An IDE (e.g., Visual Studio or Visual Studio Code)
+  -  ASP.NET and web development
+  -  Android SDK setup
+  -  Xamarin
+  - .NET Multi-platform App UI Development
+  - .NET desktop development
+  - <a href="[url](https://learn.microsoft.com/en-us/dotnet/maui/android/emulator/hardware-acceleration?view=net-maui-8.0)">Hyper-V</a> hardware acceleration 
+
+  
+- A database (MSSQL)
+
+
+## Getting Started
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/DimitrisPOL/TouristLocationsMarker.git
+cd TouristLocationsMarker
+
+## Setting Up the Project
+Install Required Packages
+
+Ensure all necessary packages are installed:
+
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+dotnet add package Microsoft.EntityFrameworkCore.Tools
+dotnet add Microsoft.AspNetCore.Identity.EntityFrameworkCore
+
+Configure the Database Context
+
+PM> Enable-Migrations
+
+PM> Update-Database
+
+```
+
 <h2 style="color:yellow;">Basic Use Case</h2>
 
 
