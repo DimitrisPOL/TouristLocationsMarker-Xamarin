@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+        <Button
+        android:text="back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1" >
+    </Button>
+  
+      <android.support.v7.widget.CardView
+        android:id="@+id/cardView1"
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="305dp"
+        android:layout_gravity="center_horizontal">
+        <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+        <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:maxHeight="200dp"
+                android:id="@+id/imageView1"
+                android:src="@drawable/flag" 
+                android:scaleType="centerCrop" />
+        <TextView
+            android:text="Basic CardView"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/textView1"/>
+
+   
+  
+            </LinearLayout>
+    </android.support.v7.widget.CardView>
+          <Button
+        android:text="Play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:visibility="gone"
+        android:id="@+id/playSong" >
+    </Button>
+           <Button
+        android:text="Close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/closeCard" >
+    </Button>
+
+    <fragment
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.google.android.gms.maps.MapFragment" />
+
+</LinearLayout>

@@ -5,28 +5,56 @@ VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Locations.UI", "Locations.UI\Locations.UI.csproj", "{A9B0659D-1F51-4B95-906E-4659677BF37A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Locations.Models", "Locations.Models\Locations.Models.csproj", "{22D8B089-9B0F-4A97-8F86-BC58BCBC0FFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Locations.Models", "Locations.Models\Locations.Models.csproj", "{22D8B089-9B0F-4A97-8F86-BC58BCBC0FFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Locations.Data", "Locations.Data\Locations.Data.csproj", "{ADDF3524-2EF2-4CD1-9662-FB8A42199D65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Locations.Data", "Locations.Data\Locations.Data.csproj", "{ADDF3524-2EF2-4CD1-9662-FB8A42199D65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TouristGuide", "TouristGuide\TouristGuide.csproj", "{AF4BE33D-ABF3-42A7-8875-8BF97C3F6469}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
+		AppStore|Any CPU = AppStore|Any CPU
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9B0659D-1F51-4B95-906E-4659677BF37A}.Ad-Hoc|Any CPU.ActiveCfg = Release|Any CPU
+		{A9B0659D-1F51-4B95-906E-4659677BF37A}.Ad-Hoc|Any CPU.Build.0 = Release|Any CPU
+		{A9B0659D-1F51-4B95-906E-4659677BF37A}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
+		{A9B0659D-1F51-4B95-906E-4659677BF37A}.AppStore|Any CPU.Build.0 = Release|Any CPU
 		{A9B0659D-1F51-4B95-906E-4659677BF37A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A9B0659D-1F51-4B95-906E-4659677BF37A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9B0659D-1F51-4B95-906E-4659677BF37A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9B0659D-1F51-4B95-906E-4659677BF37A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22D8B089-9B0F-4A97-8F86-BC58BCBC0FFF}.Ad-Hoc|Any CPU.ActiveCfg = Release|Any CPU
+		{22D8B089-9B0F-4A97-8F86-BC58BCBC0FFF}.Ad-Hoc|Any CPU.Build.0 = Release|Any CPU
+		{22D8B089-9B0F-4A97-8F86-BC58BCBC0FFF}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
+		{22D8B089-9B0F-4A97-8F86-BC58BCBC0FFF}.AppStore|Any CPU.Build.0 = Release|Any CPU
 		{22D8B089-9B0F-4A97-8F86-BC58BCBC0FFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{22D8B089-9B0F-4A97-8F86-BC58BCBC0FFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22D8B089-9B0F-4A97-8F86-BC58BCBC0FFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22D8B089-9B0F-4A97-8F86-BC58BCBC0FFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADDF3524-2EF2-4CD1-9662-FB8A42199D65}.Ad-Hoc|Any CPU.ActiveCfg = Release|Any CPU
+		{ADDF3524-2EF2-4CD1-9662-FB8A42199D65}.Ad-Hoc|Any CPU.Build.0 = Release|Any CPU
+		{ADDF3524-2EF2-4CD1-9662-FB8A42199D65}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
+		{ADDF3524-2EF2-4CD1-9662-FB8A42199D65}.AppStore|Any CPU.Build.0 = Release|Any CPU
 		{ADDF3524-2EF2-4CD1-9662-FB8A42199D65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ADDF3524-2EF2-4CD1-9662-FB8A42199D65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADDF3524-2EF2-4CD1-9662-FB8A42199D65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADDF3524-2EF2-4CD1-9662-FB8A42199D65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF4BE33D-ABF3-42A7-8875-8BF97C3F6469}.Ad-Hoc|Any CPU.ActiveCfg = Ad-Hoc|Any CPU
+		{AF4BE33D-ABF3-42A7-8875-8BF97C3F6469}.Ad-Hoc|Any CPU.Build.0 = Ad-Hoc|Any CPU
+		{AF4BE33D-ABF3-42A7-8875-8BF97C3F6469}.Ad-Hoc|Any CPU.Deploy.0 = Ad-Hoc|Any CPU
+		{AF4BE33D-ABF3-42A7-8875-8BF97C3F6469}.AppStore|Any CPU.ActiveCfg = AppStore|Any CPU
+		{AF4BE33D-ABF3-42A7-8875-8BF97C3F6469}.AppStore|Any CPU.Build.0 = AppStore|Any CPU
+		{AF4BE33D-ABF3-42A7-8875-8BF97C3F6469}.AppStore|Any CPU.Deploy.0 = AppStore|Any CPU
+		{AF4BE33D-ABF3-42A7-8875-8BF97C3F6469}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF4BE33D-ABF3-42A7-8875-8BF97C3F6469}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF4BE33D-ABF3-42A7-8875-8BF97C3F6469}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AF4BE33D-ABF3-42A7-8875-8BF97C3F6469}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF4BE33D-ABF3-42A7-8875-8BF97C3F6469}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF4BE33D-ABF3-42A7-8875-8BF97C3F6469}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
