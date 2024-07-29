@@ -87,6 +87,11 @@
                 <span asp-validation-for="Location.Area.AreaName" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label asp-for="Location.StreetAddress" class="control-label"></label>
+                <input asp-for="Location.StreetAddress" class="form-control" />
+                <span asp-validation-for="Location.StreetAddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
                 <label asp-for="Location.Area.AreaCode" class="control-label"></label>
                 <input asp-for="Location.Area.AreaCode" class="form-control" />
                 <span asp-validation-for="Location.Area.AreaCode" class="text-danger"></span>
