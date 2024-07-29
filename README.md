@@ -16,7 +16,7 @@ LocationsMarker Api is a web application that enables administrators to create a
   -  Xamarin
   - .NET Multi-platform App UI Development
   - .NET desktop development
-  - <a href="[url](https://learn.microsoft.com/en-us/dotnet/maui/android/emulator/hardware-acceleration?view=net-maui-8.0)">Hyper-V</a> hardware acceleration 
+  - [Hyper-V](https://learn.microsoft.com/en-us/dotnet/maui/android/emulator/hardware-acceleration?view=net-maui-8.0) hardware acceleration 
 
   
 - A database (MSSQL)
@@ -152,8 +152,9 @@ PM> Update-Database
 
 <br>
 <br>
-3.Navigate at Locations.UI\Pages\Shared\_Layout.cshtml and fill in a valid Google Map Api Key. Visit 
-<a href="[url](https://developers.google.com/maps/documentation/javascript/get-api-key)">this page</a> for more informtaion.
+3.Navigate at Locations.UI\Pages\Shared\_Layout.cshtml and fill in a valid Google Map Api Key. Visit this page for more informtaion.
+
+[(https://learn.microsoft.com/en-us/dotnet/maui/android/emulator/hardware-acceleration?view=net-maui-8.0](https://developers.google.com/maps/documentation/javascript/get-api-key)
 
 
 <br>
