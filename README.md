@@ -151,15 +151,18 @@ PM> Update-Database
 
 <br>
 <br>
-3.Navigate at Locations.UI\Pages\Shared\_Layout.cshtml and fill in a valid Google Map Api Key. Visit this page for more informtaion.
-
-[(https://learn.microsoft.com/en-us/dotnet/maui/android/emulator/hardware-acceleration?view=net-maui-8.0](https://developers.google.com/maps/documentation/javascript/get-api-key)
-
+3.Navigate at Locations.UI\Pages\Shared\_Layout.cshtml and fill in a valid Google Map Api Key. Visit this [https://developers.google.com/maps/documentation/javascript/get-api-key](Page) for more informtaion.
 
 <br>
 <br>
 
 ![googleapikey](https://github.com/user-attachments/assets/d4fa15db-1b03-4973-abf5-341bfe378704)
+
+<br>
+<br>
+
+
+4. Enable hardware acceleration in your pc. See [here](https://learn.microsoft.com/en-us/dotnet/maui/android/emulator/hardware-acceleration?view=net-maui-8.0) for more information
 
 
 <br>
