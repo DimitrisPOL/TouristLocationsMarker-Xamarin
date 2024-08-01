@@ -10,7 +10,7 @@ LocationsMarker Api is a web application that enables administrators to create a
 ## Prerequisites
 
 - [.NET SDK](https://dotnet.microsoft.com/download)
-- An IDE (e.g., Visual Studio or Visual Studio Code)
+- Visual Studio 2022 or later. Packages that must be installed:
   -  ASP.NET and web development
   -  Android SDK setup
   -  Xamarin
@@ -18,8 +18,7 @@ LocationsMarker Api is a web application that enables administrators to create a
   - .NET desktop development
   - [Hyper-V](https://learn.microsoft.com/en-us/dotnet/maui/android/emulator/hardware-acceleration?view=net-maui-8.0) hardware acceleration 
 
-  
-- A database (MSSQL)
+
 
 
 ## Getting Started
