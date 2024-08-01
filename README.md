@@ -151,7 +151,7 @@ PM> Update-Database
 
 <br>
 <br>
-3.Navigate at Locations.UI\Pages\Shared\_Layout.cshtml and fill in a valid Google Map Api Key. Visit this [https://developers.google.com/maps/documentation/javascript/get-api-key](Page) for more informtaion.
+3.Navigate at Locations.UI\Pages\Shared\_Layout.cshtml and fill in a valid Google Map Api Key. Visit this [Page](https://developers.google.com/maps/documentation/javascript/get-api-key) for more informtaion.
 
 <br>
 <br>
@@ -161,13 +161,13 @@ PM> Update-Database
 <br>
 <br>
 
-
 4. Enable hardware acceleration in your pc. See [here](https://learn.microsoft.com/en-us/dotnet/maui/android/emulator/hardware-acceleration?view=net-maui-8.0) for more information
 
 
 <br>
 <br>
-3. In the Android applicaton navigate to the constructor of MainActivity.cs. There you will set preferences before running/building the app.
+
+5. In the Android applicaton navigate to the constructor of MainActivity.cs. There you will set preferences before running/building the app.
 
 Note: If you do not set prefered starting location the app will default to the devices current location.
 
@@ -179,7 +179,7 @@ Note: If you do not set prefered starting location the app will default to the d
 
 <br>
 <br>
-4. Start the LocationsMarker. After you have set some locations start TouristGuide. Enjoy!
+6. Start the LocationsMarker. After you have set some locations start TouristGuide. Enjoy!
 
 
 <br>
