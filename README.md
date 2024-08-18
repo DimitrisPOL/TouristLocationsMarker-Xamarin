@@ -29,6 +29,8 @@ LocationsMarker Api is a web application that enables administrators to create a
 git clone https://github.com/DimitrisPOL/TouristLocationsMarker.git
 cd TouristLocationsMarker
 
+```
+
 ## Setting Up the Project
 Install Required Packages
 
@@ -40,6 +42,8 @@ dotnet add Microsoft.AspNetCore.Identity.EntityFrameworkCore
 
 Configure the Database Context
 
+
+```bash
 PM> Enable-Migrations
 
 PM> Update-Database
