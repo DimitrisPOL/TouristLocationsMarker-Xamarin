@@ -32,15 +32,17 @@ cd TouristLocationsMarker
 ```
 
 ## Setting Up the Project
-Install Required Packages
+1. Install Required Packages
 
-Ensure all necessary packages are installed:
+2. Ensure all necessary packages are installed:
 
+```bash
 dotnet add package Microsoft.EntityFrameworkCore.SqlServer
 dotnet add package Microsoft.EntityFrameworkCore.Tools
 dotnet add Microsoft.AspNetCore.Identity.EntityFrameworkCore
+```
 
-Configure the Database Context
+3. Configure the Database Context
 
 
 ```bash
@@ -49,7 +51,40 @@ PM> Enable-Migrations
 PM> Update-Database
 
 ```
+4. Set database connection string and prefered map starting coordinates on Location.UI appsettings.developments.json
 
+```bash
+"ConnectionStrings": {
+  "DefaultConnection": "Server=********;Database=Beacon;Trusted_Connection=True;MultipleActiveResultSets=true"
+},
+"MapCenter": {
+  "Lat": 38.034233,
+  "Lng": 23.7068017
+}
+
+```
+5. Navigate at Locations.UI\Pages\Shared\_Layout.cshtml and fill in a valid Google Map Api Key. Visit this [Page](https://developers.google.com/maps/documentation/javascript/get-api-key) for more informtaion on how to obtain a key.
+
+```bash
+
+<script src="https://maps.googleapis.com/maps/api/js?key=*******************&callback=initMap&libraries=&v=weekly"></script>
+
+```
+
+6. Enable hardware acceleration in your pc. See [here](https://learn.microsoft.com/en-us/dotnet/maui/android/emulator/hardware-acceleration?view=net-maui-8.0) for more information.
+
+7. In the Android applicaton navigate to the constructor of MainActivity.cs. There you will set preferences before running/building the app.
+
+> [!NOTE]
+> If you do not set prefered starting location the app will default to the devices current location.
+
+<br>
+<img width="934" alt="AndroidSettings2" src="https://github.com/user-attachments/assets/fe8c1459-8e96-45e4-bf3a-56df9d1dd602">
+
+8. Start the LocationsMarker. After you have set some locations start TouristGuide. Enjoy!
+
+<br>
+<br>
 <h2 style="color:yellow;">Basic Use Case</h2>
 
 
@@ -125,66 +160,3 @@ PM> Update-Database
 <br>
 <br>
 <img width="433" alt="autoplay" src="https://github.com/user-attachments/assets/f5dbbce9-4e07-4ca1-ad46-aac845403c33">
-
-
-
-<h2>Setup Instructions</h2>
-
-
-<br>
-<br>
-1. Set db connection string and prefered map starting coordinates on Location.UI appsettings.developments.json
-   
-
-<br>
-<br>
-<img width="833" alt="appsettings" src="https://github.com/user-attachments/assets/771e0f07-d5bc-43f2-8b1f-b1e02ae3b217">
-
-
-
-<br>
-<br>
-2. If you are launching via emulator you will need to bind your localhost with 127.0.0.1 . This is the default IP which Android emulators set for the localhost of the hosting machine. The Android app will not be able to see your localhost/port if this is not set.
-
-   
-<br>
-<br>
-
-<img width="979" alt="hostconfig" src="https://github.com/user-attachments/assets/df45d2c9-446c-4e89-99ae-eea1c07ee6e6">
-
-
-<br>
-<br>
-3.Navigate at Locations.UI\Pages\Shared\_Layout.cshtml and fill in a valid Google Map Api Key. Visit this [Page](https://developers.google.com/maps/documentation/javascript/get-api-key) for more informtaion.
-
-<br>
-<br>
-
-![googleapikey](https://github.com/user-attachments/assets/d4fa15db-1b03-4973-abf5-341bfe378704)
-
-<br>
-<br>
-
-4. Enable hardware acceleration in your pc. See [here](https://learn.microsoft.com/en-us/dotnet/maui/android/emulator/hardware-acceleration?view=net-maui-8.0) for more information
-
-
-<br>
-<br>
-
-5. In the Android applicaton navigate to the constructor of MainActivity.cs. There you will set preferences before running/building the app.
-
-Note: If you do not set prefered starting location the app will default to the devices current location.
-
-<br>
-<br>
-<img width="934" alt="AndroidSettings2" src="https://github.com/user-attachments/assets/fe8c1459-8e96-45e4-bf3a-56df9d1dd602">
-
-
-
-<br>
-<br>
-6. Start the LocationsMarker. After you have set some locations start TouristGuide. Enjoy!
-
-
-<br>
-<br>
