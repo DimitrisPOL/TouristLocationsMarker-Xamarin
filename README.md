@@ -22,23 +22,15 @@ LocationsMarker Api is a web application that enables administrators to create a
 ## Features of TouristGuide Android App:
 - Explore Tourist Attractions in Greece:
   -  Displays tourist attractions on a map with interactive markers.
-  -  Users can click on a marker to view more details about the location.
+  -  Users can click on a marker to view more details about the location including an image as well as text & audio description. 
 
-- Multimedia Information for Each Location:
-  -  View images of the tourist sights.
-  -  Read detailed descriptions of each location.
-  -  Play sound recordings that describe the sights.
-- Automatic Audio Playback Based on Location:
-  -  The sound recording automatically plays when the user is near a specific attraction.
-- Current Location Integration:
-  -  The app tracks the user’s current location and interacts with nearby tourist sights.
+- Automatic Audio Playback Based on current Location:
+  -  The app tracks the user’s current location and plays the sound recording automatically when the user is near a specific attraction.
 
 ## Features of LocationsMarker API (Admin Web Application):
 
 - Manage Tourist Attractions:
-    Administrators can add, edit, or delete tourist attraction locations for the app.
-
-- Comprehensive Location Data:
+  -  Administrators can add, edit, or delete tourist attraction locations for the app.
   -  Manage details like the name, area, postal code, and description of each tourist attraction.
   -  Upload images and sound recordings to provide a richer user experience.
 
